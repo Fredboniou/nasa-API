@@ -2,7 +2,7 @@
   <div class="home">
     <Banner title="Nasa-API"/>
     <div className="presentation">
-      <p>Bienvenue sur Nasa-API. Ici vous découvrirez tous les clichés de la Nasa, qu'ils proviennent de satellites, de sondes, de télescopes ou des rovers qui arpentent le sol de Mars.
+      <p>Bienvenue sur Nasa-API. Ici vous découvrirez des clichés de la Nasa, qu'ils proviennent de satellites, de sondes, de télescopes ou des rovers qui arpentent le sol de Mars.
         Cette application utilise les données de l'API public de la Nasa.<br />
         Bonne découverte !!!
       </p>

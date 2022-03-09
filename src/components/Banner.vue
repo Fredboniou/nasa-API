@@ -1,12 +1,10 @@
 <template>
   <div class="nasa-banner">
     <div class="nav">
-      <router-link to="/pictureoftheday">Photo du jour</router-link>
-      <router-link to="#">Asteroïdes News</router-link>
-      <router-link to="#">Images polychromatiques</router-link>
-      <router-link to="#">Photos de Mars</router-link>
+      <router-link to="/pictureoftheday" >Photo du jour</router-link>
+      <router-link to="/march">Photos de Mars</router-link>
     </div>
-    <router-link to="/">
+    <router-link to="/" id="home">
       <div class="logo">
         <img src="../assets/logo-rs2.png" alt="logo Nasa" class="nasa-logo" />
         <h1 class="nasa-title">{{ title }}</h1>
@@ -48,9 +46,17 @@ export default {
     justify-content: flex-start;
 }
 
+
 a {
-    margin-right: 20px;
+  margin-right: 20px;
     text-decoration: none;
     color: white;
+    &.router-link-exact-active {
+      color: rgb(95, 95, 95);
+    }
+}
+
+#home.router-link-exact-active {
+  color: white;
 }
 </style>

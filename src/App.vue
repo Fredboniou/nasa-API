@@ -8,6 +8,7 @@
 body {
   margin: 0;
   background: url("./assets/espace.jpg") center/cover;
+  background-attachment: fixed;
   height: 100vh;
 }
 #app {
